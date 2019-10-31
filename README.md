@@ -1,6 +1,7 @@
 # 区块链小白书
 
 李笑来（著）&copy; 2019
+（删减部分产品介绍内容）
 
 -----
 
@@ -57,7 +58,7 @@
 
 > 绝大多数难以理解的知识，是因为它内部有很多 “前置引用”。
 
-所谓的前置引用，就是一个在后面才能深入理解的概念竟然在此之前已经被引用了，导致的结果是学习者总是处于懵懂的状态。学校里的知识不是这样的，学校里的知识总是线性层层递进的，理解了前面，就能理解后面…… 关于 “前置引用”，你可以参阅我在《[自学是门手艺](https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/Part.1.F.deal-with-forward-references.ipynb)》里的阐述。
+所谓的前置引用，就是一个在后面才能深入理解的概念竟然在此之前已经被引用了，导致的结果是学习者总是处于懵懂的状态。学校里的知识不是这样的，学校里的知识总是线性层层递进的，理解了前面，就能理解后面。
 
 “硬着头皮读完，而后重复读很多次” 这个策略，就是可以轻松突破 “前置引用” 所设置的障碍。这个技巧，事实上可以用在任何领域。
 
@@ -66,8 +67,6 @@
 快速掌握新知识，快速适应新领域，还有个重要的技巧，就是借助群智的力量。事实上，在学校里，你早就应该发现这个技巧了 —— 如果你能跟那些学霸经常聊天，经常玩耍，你就会发现总是在不经意之间，很多重点难点就那样轻而易举地被解决掉了……
 
 这首先因为人是社交动物，然而更为重要的是，交流这个东西，随意的交流总是比刻意的交流更为有效 —— 因为随意的交流总是刻意解决那些连你自己都没意识到的问题…… 可偏偏，这些你自己意识不到的问题恰恰是最重要甚至最关键的问题。如果不借助这种群智的力量，很难想象还有什么办法可以解决这种隐秘的关键问题。
-
-在 [Mixin Messenger](https://mixin.one/messenger) 上，有一个群，群号是 *7000102093*，里面有一万多人 —— 可能是目前国内最优质的小白社群。群里定期有公开课，并且定期会开放聊天机会…… 在那里，你可以向别人提问，也可以观察他人之间的讨论，很多你弄不明白的问题，可能一不小心之间就彻底被他人的对话解决掉了。
 
 ## 比特币
 
@@ -193,25 +192,6 @@
 > 若是真的有谁能够操纵 51% 的算力，那么他会发现，对他来说，“贡献” 远比 “攻击” 更有利可图。
 
 ### 10. 小白如何购买比特币
-
-目前世界上对小白最友好的多币种钱包是 [Mixin Messenger](https://mixin.one/messsenger)，它不仅支持你所能听说过的绝大多数数字资产收发与存储，并且使用极为方便。
-
-Mixin 下载方式：
-
-> * iOS
->   * 国内用户，在 iTunes [下载 Mixin 畅聊版](https://apps.apple.com/cn/app/mixin-%E5%AF%86%E4%BF%A1%E7%95%85%E8%81%8A%E7%89%88/id1457938019)
->   * 国外用户，在 iTunes [下载 Mixin Messenger](https://apps.apple.com/app/mixin/id1322324266)
-> * Android
->   * 国内用户，在[腾讯应用宝下载](https://a.app.qq.com/o/simple.jsp?pkgname=one.mixin.messenger)，或者[小米应用商店下载](http://app.mi.com/details?id=one.mixin.messenger)
->   * 国外用户，在 [Google Play Store 下载](https://play.google.com/store/apps/details?id=one.mixin.messenger)
-
-iOS 国内用户下载的 [Mixin 畅聊版](https://apps.apple.com/cn/app/mixin-%E5%AF%86%E4%BF%A1%E7%95%85%E8%81%8A%E7%89%88/id1457938019) 需要添加小钱包机器人（ID: *7000101425*）才能使用数字资产收发存储功能。
-
-![](images/miniwallet.png)
-
-在 Mixin 里提供 OTC 服务的是 exin，机器人 ID：7000101276。
-
-你也可以到 [https://big.one](https://big.one)，这是国内老牌交易所云币团队打造的有信誉保障的区块链数字资产交易所，可以使用 USDT 购买比特币，它也有 [OTC 服务](https://otc.big.one/trade)。另外，Big.One 的 Mixin 大群 ID 是：*7000101910*。
 
 再次需要提醒风险：
 
@@ -366,63 +346,3 @@ TEE（Trusted Execution Environment，可信执行环境）的作用是，向公
 
 > 1. 不要只做期货；
 > 2. 选择靠谱的不作恶的交易所，比如 [BTCMEX](https://www.btcmex.com/)……
-
-
-
------
-
-## 关于本书
-
-本书不是技术书籍，它很短，它就是想尽量用最简单的方式给小白讲清楚区块链的 “最少必要知识”。
-
-本书内容保存在 [github](https://github.com/xiaolai/blockchainlittlebook.com) 上，点击右上角那个小猫的图标，就可以转至该项目的仓库。
-
-本书完全开源，没有任何协议，你可以任意修改，任意发布 —— 只不过，希望你注意以下两点：
-
-> * 保留原文出处，加上原站链接：https://blockchainlittlebook.com
-> * 如若做出了修改，最好在保留原文的情况下，加上醒目的修改标注。
-
-欢迎各种语言的翻译 —— 请提交 pull request。请将翻译文件放置到相应的目录之中，文件仍然命名为 README.md，比如
-
-> /en/README.md
->
-> /jp/README.md
-
-**你甚至可以用它做自己的网站！** —— 自己先去买一个域名就好。
-
-在你注册好自己的 github 账户之后，你就可以 Fork 当前这个项目为自己的仓库：
-
-![](images/fork1.png)
-
-Fork 完成之后，点开 Settings
-
-![](images/fork2.png)
-
-往下拉，拉到 GitHub Pages 单元，Source 中选择 ```master branch```：
-
-![](images/fork3.png)
-
-而后在 Custom Domain 中填写你自己的域名（你可以在 [name.com](https://www.name.com/) 上或者[阿里云](https://www.net.cn)上购买域名）：
-
-![](images/fork4.png)
-
-你需要在域名服务商的页面中，为自己的域名添加以下 4 条 A 记录和 1 条 CNAME 记录：
-
-> A 记录：
->
-> * 185.199.108.153
-> * 185.199.109.153
-> * 185.199.110.153
-> * 185.199.111.153
->
-> CNAME
->
-> host: www
->
-> Anser: *your-github-username*.github.io
-
-我的设置如下：
-
-![](images/custom-domain.png)
-
-大功告成！几分钟之后，你就可以看到你自己的域名已经生效了，若是你身边有人想要了解区块链，那么你就可以给他属于你自己的链接了。如果需要修改内容，直接在 GitHub 页面里编辑即可……
